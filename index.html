@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ML & Backend Engineer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
+  <!-- Header -->
+  <header class="flex items-center justify-between px-6 py-4 shadow-md sticky top-0 bg-white dark:bg-gray-800 z-50">
+    <h1 class="text-2xl font-bold">Soumyanil Dey</h1>
+    <button id="theme-toggle" class="text-2xl">🌓</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center px-4 py-12">
+    <h2 class="text-3xl md:text-4xl font-semibold mb-4">Machine Learning & Python Backend Engineer</h2>
+    <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300">Creating intelligent systems & scalable backend solutions</p>
+  </section>
+
+
+  <section id="skills" class="snap-start">
+    <div
+      class="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
+      <h3 class="absolute top-20 md:top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">Skills</h3>
+      <h3 class="absolute top-32 md:top-36 uppercase tracking-[3px] text-gray-500 text-sm">Hover over a skill for
+        current proficiency</h3>
+
+      <div class="grid grid-cols-4 gap-4 md:gap-6 mt-36">
+        <!-- Python -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300 ease-in-out" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">75%</p>
+          </div>
+        </div>
+
+        <!-- Java -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">60%</p>
+          </div>
+        </div>
+
+        <!-- C -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">40%</p>
+          </div>
+        </div>
+
+        <!-- Oracle -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg" alt="Oracle DB"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">50%</p>
+          </div>
+        </div>
+
+        <!-- Linux -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">60%</p>
+          </div>
+        </div>
+
+        <!-- Jupyter -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">85%</p>
+          </div>
+        </div>
+
+        <!-- Colab -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg"
+            alt="Google Colab"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">90%</p>
+          </div>
+        </div>
+
+        <!-- VS Code -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">95%</p>
+          </div>
+        </div>
+
+        <!-- Git -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">85%</p>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 bg-white group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">80%</p>
+          </div>
+        </div>
+
+        <!-- Django -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 bg-white group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">75%</p>
+          </div>
+        </div>
+
+        <!-- TensorFlow -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+            alt="TensorFlow"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">70%</p>
+          </div>
+        </div>
+
+        <!-- Keras -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 bg-white p-2 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">65%</p>
+          </div>
+        </div>
+
+        <!-- PyTorch -->
+        <div class="group relative flex cursor-pointer">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch"
+            class="rounded-full border-2 border-gray-400 object-cover w-20 h-20 group-hover:grayscale transition duration-300" />
+          <div
+            class="absolute opacity-0 group-hover:opacity-90 group-hover:bg-white w-20 h-20 rounded-full flex items-center justify-center transition duration-300">
+            <p class="text-xl font-bold text-black">70%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Projects -->
+  <section class="px-4 py-12 max-w-4xl mx-auto">
+    <h3 class="text-2xl mb-6 font-semibold border-b pb-2">Project Work</h3>
+    <ul class="list-disc pl-6 space-y-4">
+      <li><strong>Oral Cancer Detection Model:</strong> ResNet + VGG, 98% train, 87% test accuracy. Tools: TensorFlow, Colab.</li>
+      <li><strong>Face Generation Model:</strong> DCGAN on real human faces. Tools: PyTorch, Colab.</li>
+      <li><strong>Faster R-CNN with ResNet50:</strong> COCO-Stuff, mAP 0.5564. Tools: PyTorch, mixed precision.</li>
+      <li><strong>Final Year Project:</strong> E-Commerce with Django, JS, and ML-powered shopping experience.</li>
+    </ul>
+  </section>
+
+  <!-- Certificates -->
+  <section class="px-4 py-12 max-w-4xl mx-auto">
+    <h3 class="text-2xl mb-6 font-semibold border-b pb-2">Certificates</h3>
+    <ul class="list-disc pl-6 space-y-2 text-sm sm:text-base">
+      <li>Machine Learning with Python (03/2023)</li>
+      <li>Deep Learning with Keras (04/2023)</li>
+      <li>Deep Learning with TensorFlow (08/2023)</li>
+      <li>Web Applications in Django (10/2023)</li>
+      <li>Generative AI with LLMs (03/2025)</li>
+    </ul>
+  </section>
+
+  <!-- Publications -->
+  <section class="px-4 py-12 max-w-4xl mx-auto">
+    <h3 class="text-2xl mb-6 font-semibold border-b pb-2">Publications</h3>
+    <ul class="list-disc pl-6 space-y-2 text-sm sm:text-base">
+      <li>Credit Card Fraud Detection | IJRASET | Jun 2023</li>
+      <li>Image Captioning – A Novel Technique | RDAMSE 2025</li>
+      <li>Image Captioning with VGG | Springer Conf. | Apr 2025</li>
+      <li>Hybrid Image Retrieval (ResNet + ViT) | J. Engg. Sci. | May 2025</li>
+    </ul>
+  </section>
+
+  <!-- Achievements -->
+  <section class="px-4 py-12 max-w-4xl mx-auto">
+    <h3 class="text-2xl mb-6 font-semibold border-b pb-2">Achievements</h3>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>1st Prize - Innovative Idea, Dept. Tech Fest 2022</li>
+      <li>JIS Innovation Award 2022–2023</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section class="px-4 py-12 max-w-4xl mx-auto">
+    <h3 class="text-2xl mb-6 font-semibold border-b pb-2">Contact</h3>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: <a class="text-blue-500 underline" href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+    <p>LinkedIn: <a class="text-blue-500 underline" href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+  </section>
+
+  <footer class="text-center py-6 text-gray-500 dark:text-gray-400">&copy; 2025 Soumyanil Dey</footer>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+    });
+  </script>
+</body>
+
+</html>
