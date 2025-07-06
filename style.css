@@ -109,3 +109,50 @@ footer {
     margin: 2rem auto;
   }
 }
+
+
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.skill-bubble {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #0077cc;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.skill-bubble::before {
+  content: attr(data-label);
+  position: absolute;
+  bottom: -1.5rem;
+  font-size: 0.75rem;
+  color: inherit;
+}
+
+.skill-bubble:hover {
+  transform: scale(1.1);
+  background-color: #005fa3;
+}
+
+body.dark .skill-bubble {
+  background-color: #90caf9;
+  color: #000;
+}
+
+body.dark .skill-bubble:hover {
+  background-color: #64b5f6;
+}
